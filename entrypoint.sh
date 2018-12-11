@@ -1,4 +1,4 @@
-#!/bin/sh -l
+#!/usr/bin/env bash
 
 if [ -n "$ENCODED_APPLICATION_CREDENTIALS_KEY" ]; then
   echo ">> Using value stored in '$ENCODED_APPLICATION_CREDENTIALS_KEY' as encoded service account key"
